@@ -1,5 +1,7 @@
 *{
     color: rgb(var(--bs-tertiary-color-rgb));
+    margin:0%;
+    padding:0%
     
 }
 
@@ -26,7 +28,7 @@
 #fwly{
     margin-left: -35px;
 }
-.display-4,fw-bold,text-body-emphasis{
+.display-4,.fw-bold,.text-body-emphasis{
     text-align: center;
 }
 .text-body-emphasis{
@@ -46,11 +48,25 @@
         height: auto;
     }
     #fwmy{
-        margin-left: 100px;
+        margin-left: 180px;
     }
-
-
-#ivaimage{
-    width:30px
+#fwly{
+    margin-left: 180px;
 }
+.btn, .btn-secondary{
+    margin-left:210px
+}
+.bd-placeholder-img,.rounded-circle{
+    border-radius: 100%;
+}
+#ivashkinphoto{
+    height:550px;
+}
+
+
+.textoficons{
+    margin-left: 20px;
+}
+
+
 }
