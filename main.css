@@ -36,7 +36,7 @@
 }
 
 
-@media (max-width: 770px) {
+@media (max-width: 780px) {
     .header {
         flex-direction: column;
     }
@@ -48,19 +48,19 @@
         height: auto;
     }
     #fwmy{
-        margin-left: 180px;
+        margin-left: 110px;
     }
 #fwly{
-    margin-left: 180px;
+    margin-left: 110px;
 }
 .btn, .btn-secondary{
-    margin-left:210px
+    margin-left:130px
 }
 .bd-placeholder-img,.rounded-circle{
     border-radius: 100%;
 }
 #ivashkinphoto{
-    height:550px;
+    border-radius: 100%;
 }
 
 
