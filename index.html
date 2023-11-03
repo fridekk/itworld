@@ -8,11 +8,25 @@
     <title>IT World</title>
 </head>
 <body>
+  
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <span class="fs-4"><img src="Снимок экрана 2023-10-30 180007.png" id="mylogo" width="70px" height="50px">Проект "IT World"</span>
+      
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="#webdevlink" class="nav-link active" aria-current="page">Home</a></li>
+      <li class="nav-item"><a href="#aboutit" class="nav-link">Что такое IT</a></li>
+      <li class="nav-item"><a href="#connectwme" class="nav-link">Связаться</a></li>
+    </ul>
+  </header>
     <div class="header">
-        <img src="Снимок экрана 2023-10-30 180007.png" id="mylogo" width="70px" height="50px">Проект "IT World"
-        <h1 class="display-4 fw-bold text-body-emphasis">Программирование</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Программирование - это искусство и наука создания компьютерных программ с использованием языков программирования. Это включает в себя изучение синтаксиса языка, структур данных, алгоритмов, процедур и функций. Программирование также требует понимания логики и способности решать проблемы.</p>
+        
+        <h1 id="mylogo" class="display-4 fw-bold text-body-emphasis" d="webdevlink">Программирование</h1>
+        <div class="col-lg-6 mx-auto" i>
+            <p class="lead mb-4" >Программирование - это искусство и наука создания компьютерных программ с использованием языков программирования. Это включает в себя изучение синтаксиса языка, структур данных, алгоритмов, процедур и функций. Программирование также требует понимания логики и способности решать проблемы.</p>
 
           </div>
 
@@ -26,9 +40,9 @@
     
         <hr class=" featurette-divider">
     
-        <div class="  row featurette">
+        <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">Веб-разработка.
+            <h2  class="featurette-heading fw-normal lh-1" id="aboutit">Веб-разработка.
                  <span class="text-body-secondary">Web development</span></h2>
             <p class="lead">Веб-разработка - это процесс создания веб-сайтов или веб-приложений. Веб-разработчики используют различные языки и инструменты, такие как HTML, CSS, JavaScript, PHP, Ruby, Python и другие. Они также работают с базами данных и серверами.
 
@@ -87,14 +101,56 @@
         <!-- /END THE FEATURETTES -->
     
       </div>
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Vlad Umanau, Inc</span>
-        </div>
+      
 
+        
+        <!-- Форма обратной связи -->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="mb-3 mb-md-0 text-body-secondary"><p id="litelo">© 2023 Vlad Umanau, Inc</p></div>
+          </div>
+          <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              
+          </div>
+          
+          <!-- Форма обратной связи -->
+          <div id="connectwme" class="col-md-8">
+            <div class="left">
+            <div class="project"><div class="card">
+              <div class="card-content">
+                <p class="card-title">It WORLD
+                </p><p class="card-para">Спасибо за посещение моего сайта о программировании! Я создал этот сайт, чтобы поделиться знаниями  с другими людьми, которые также интересуются программированием.
+
+                  Я надеюсь, что информация, которую вы здесь нашли, была полезной и интересной. Если у вас есть какие-либо вопросы или предложения, не стесняйтесь связаться со мной через форму обратной связи.
+                  
+                  Помните, что программирование - это путешествие, и каждый шаг, который вы делаете, приближает вас к вашей цели. Не бойтесь экспериментировать и учиться новому. Удачи вам в вашем путешествии в мир программирования!
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="col-md-8">
+              <div class="container">
+                  <div class="heading">Связаться со мной</div>
+                  <form action="" method="post" class="form">
+                    <form action="contact.php" method="post" class="form">
+  
+                      <input required="" class="input" type="email" name="email" id="email" placeholder="E-mail">
+                      <input required="" class="input" type="text" name="password" id="password" placeholder="Name">
+                      <textarea required="" class="input" name="message" id="message" placeholder="Message"></textarea>
+                      <input class="login-button" type="submit" value="Отправить">
+                  </form>
+              </div>
+              
+          </div>
+        </div>
+          
+          
+          
+              
       </footer>
-</body>
-</html>
+      
+  </body>
+  </html>
