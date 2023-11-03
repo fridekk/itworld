@@ -299,20 +299,78 @@ footer {
     }
     
     
-    @media (max-width: 768px) {
+    @media screen and (max-width: 600px) {
       h1 {
-          margin-left: 0;
+          margin-left: 40px;
           text-align: center;
       }
-  
-      .container {
-          margin-right: 0;
+
+      .lead{
+        margin-left: 20px;
+      }
+
+      .featurette-heading{
+        margin-left:20px
+      }
+
+      .featurette img{
+        width:330px;
+        height:200px
+      }
+
+      .col-md-5 #langsimg{
+        width:220px;
+        margin-left: 80px;
+      }
+
+
+      .col-lg-4{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+      }
+
+      .textoficons{
+        margin-left:7px
       }
   
+      #fwmy,#fwly{
+        margin:9px
+      }
       .col-md-8 {
           margin-left: 0;
       }
   
+      .card {
+        width: 370px;
+        margin-left:10px;
+        margin-right: 10px;
+        
+      }
+      .card-content{
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: white;
+        align-items: none;
+        justify-content:none;
+        text-align: center;
+        margin-bottom:0%;
+    }
+    
+         
+
+      #connectwme {
+        display: flex;
+        align-items: center;
+        display: grid;
+      } 
+
+
       footer .container {
           margin-left: 0;
       }
